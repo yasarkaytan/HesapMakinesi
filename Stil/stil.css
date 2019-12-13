@@ -1,0 +1,101 @@
+
+
+.calculator {
+width: 490px;
+background-color: #ECEFF1;
+padding: 10px 20px 40px 20px;
+border-radius: 20px;
+margin: 0% 30%;
+box-shadow: 0px 5px lightgrey;
+}
+
+@font-face {
+    font-family: opens;
+    src: url(../YaziKarakter/OpenSans-Regular.ttf)
+}
+
+p {
+  font-family: opens;
+  font-size: 15px;
+  color: grey;
+  margin: 10px 0px 17px 125px;;
+}
+
+input[type=text] {
+width: 465px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px -6px lightgrey;
+    background-color: #333333;
+    font-family: opens;
+    font-size: 25px;
+    color: #d9d9d9;
+    padding: 0 5px 0 5px;
+    margin: 0 0px 20px 0px;
+}
+
+.calc-buttons {
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.button {
+margin: 5px;
+width: 60px;
+border: none;
+box-shadow: 0px 5px lightgrey;
+height: 60px;
+border-radius: 4px;
+font-family: opens;
+font-size: 25px;
+color: #fff;
+cursor: pointer;
+outline: none;
+}
+
+button:hover {
+  background-color: #B71C1C;
+  transition: 0.4s;
+}
+
+button:active {
+  box-shadow: 0px 1px lightgrey;
+  transform: translateY(5px);
+  transition: 0.1s;
+}
+
+.functions-one {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.functions-two {
+width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.triggers {
+    background-color: #dfaecb;
+}
+
+
+
+.numbers {
+    background-color: #BDBDBD;
+}
+
+.basic-stuff {
+    background-color: #8f1f61;
+}
+
+.complex-stuff {
+    background-color: #28061a;
+}
